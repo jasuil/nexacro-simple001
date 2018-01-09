@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="http://www.nexacroplatform.com/platform/dataset" ver="5000" >
+     <Parameters>
+          <Parameter id="ErrorCode" type="int">0</Parameter>
+          <Parameter id="ErrorMsg" type="string">SUCC</Parameter>
+     </Parameters>
+     <Dataset id="customers">
+          <ColumnInfo>
+               <Column id="id" type="STRING" size="4"/>
+               <Column id="name" type="STRING" size="16"/>
+               <Column id="email" type="STRING" size="32"/>
+               <Column id="phone" type="STRING" size="16"/>
+               <Column id="comp_name" type="STRING" size="32"/>
+               <Column id="department" type="STRING" size="32"/>
+               <Column id="comp_phone" type="STRING" size="16"/>
+               <Column id="comp_addr" type="STRING" size="256"/>
+          </ColumnInfo>
+          <Rows>
+               <Row>
+                    <Col id="id">TC-001</Col>
+                    <Col id="name">성일짱</Col>
+                    <Col id="email">jasuil@daum.net</Col>
+                    <Col id="phone">6987-6543</Col>
+                    <Col id="comp_name">TOBESOFT</Col>
+                    <Col id="department">0</Col>
+                    <Col id="comp_phone">6506-7000</Col>
+                    <Col id="comp_addr">부천</Col>
+               </Row>
+               <Row>
+                    <Col id="id">TC-002</Col>
+                    <Col id="name">Sean Oneal</Col>
+                    <Col id="email">ibero.Donec.consectetuer@ac.ca</Col>
+                    <Col id="phone">7357-3715</Col>
+                    <Col id="comp_name">AC</Col>
+                    <Col id="department">0</Col>
+                    <Col id="comp_phone">7357-7000</Col>
+                    <Col id="comp_addr">Lansing</Col>
+               </Row>
+               <Row>
+                    <Col id="id">TC-003</Col>
+                    <Col id="name">ieter Valenzuela</Col>
+                    <Col id="email">ornare@Maecenasmifelis.com</Col>
+                    <Col id="phone">9025-0645</Col>
+                    <Col id="comp_name">Maecenasmifelis</Col>
+                    <Col id="department">0</Col>
+                    <Col id="comp_phone">9025-7000</Col>
+                    <Col id="comp_addr">Coral Springs</Col>
+               </Row>
+               <Row>
+                    <Col id="id">TC-004</Col>
+                    <Col id="name">Mark Contreras</Col>
+                    <Col id="email">vitae.posuere@consectetueripsumnunc.ca</Col>
+                    <Col id="phone">7026-3815</Col>
+                    <Col id="comp_name">consectetueripsumnunc</Col>
+                    <Col id="department">0</Col>
+                    <Col id="comp_phone">7026-7000</Col>
+                    <Col id="comp_addr">Elmira</Col>
+               </Row>
+          </Rows>
+     </Dataset>
+</Root>
